@@ -22,10 +22,10 @@
                     <?php if(!empty($listing['details'])) { ?>
                         <p><small class="text-muted tiny"><?php echo $this->escape($listing['details']); ?></small></p>
                     <?php } ?>
+                </div>
                     <?php if(($key+1)%4 == 0) { ?>
                         <div class="clearfix"></div>
                     <?php } ?>
-                </div>
                 <?php if(($key+1)%2 == 0) { ?>
                     <div class="clearfix visible-sm-block"></div>
                 <?php } ?>
