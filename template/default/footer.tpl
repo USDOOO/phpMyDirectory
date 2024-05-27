@@ -1,9 +1,7 @@
 </div>
 <div id="footer">
     <div class="container-fluid text-center">
-        <?php if(!ADDON_UNBRANDING) { ?>
-            <p><a rel="nofollow" href="http://www.phpmydirectory.com/"><?php echo $lang['powered_by']; ?> phpMyDirectory</a> (v. <?php echo $pmd_version; ?>)</p>
-        <?php } ?>
+            <p><a href="<?php echo BASE_URL; ?>/"><?php echo $lang['powered_by']; ?> phpMyDirectory</a> (v. <?php echo $pmd_version; ?>)</p>
         <?php echo $this->block('options'); ?>
     </div>
 </div>
