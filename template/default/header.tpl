@@ -64,7 +64,6 @@
                     <?php } else { ?>
                         <li><p class="navbar-text"><?php echo $lang['logged_as']; ?> <a href="<?php echo BASE_URL.MEMBERS_FOLDER; ?>user_index.php"><?php echo $this->escape($username); ?></a></p></li>
                     <?php } ?>
-                    </li>
                 </ul>
             </div>
         </div>
